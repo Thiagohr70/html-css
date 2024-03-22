@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 html {
+    position: relative;
     height: 100%;
     width: 100%;
     background-image: url(imagens/espaco.jpg);
@@ -11,7 +12,8 @@ html {
 }
 
 div.astro {
-    display: block;
-    width: 50%;
-    margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
